@@ -1,0 +1,7 @@
+{
+  "name": "IKAP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

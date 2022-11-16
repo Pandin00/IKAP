@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      I Know A Place
+    </ion-title>
+  </ion-toolbar>
+  <ion-button (click)="showMenu()">
+    <ion-icon name="" slot="end"></ion-icon>
+  </ion-button>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <capacitor-google-map #map></capacitor-google-map>
+</ion-content>
